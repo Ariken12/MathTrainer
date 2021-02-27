@@ -12,7 +12,7 @@ class Main:
         self.menu()
 
     def menu(self):
-        self.info = Label(self.wndw, text="Выберите уровень тренеровки")
+        self.info = Label(self.wndw, text="Выберите уровень тренировки")
         self.dif1 = Button(self.wndw, text="1 уровень", command=self.difficult_1)
         self.dif2 = Button(self.wndw, text="2 уровень", command=self.difficult_2)
         self.dif3 = Button(self.wndw, text="3 уровень", command=self.difficult_3)
