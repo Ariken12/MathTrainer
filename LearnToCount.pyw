@@ -128,9 +128,9 @@ class Main:
             self.time['text'] = "Прошло " + info + " сек"
             self.wndw.update()
 
-        self.info.destroy()
-        self.input.destroy()
-        self.time.destroy()
+        self.info.pack_forget()
+        self.input.pack_forget()
+        self.time.pack_forget()
 
         self.info['text'] = "Вы решили пример за " + info + " сек"
         self.info.pack()
